@@ -1,6 +1,6 @@
 body {
     background: rgb(255, 255, 255);
-    background: linear-gradient(84deg, rgba(255, 255, 255, 1) 0%, rgba(194, 194, 194, 1) 59%, rgba(228, 228, 228, 1) 100%);
+    background: linear-gradient(84deg, rgba(255, 255, 255, 1) 0%, rgba(194, 194, 194, 1) 0%, rgba(228, 228, 228, 1) 80%);
 }
 
 
@@ -65,6 +65,7 @@ body {
 #result-disp {
     margin-top: 12px;
     font-size: 18px;
+    text-align: center;
 }
 
 #sb-t1 {
@@ -104,8 +105,13 @@ body {
         width: 80%;
         padding: 14px;
     }
-    footer{
+
+    footer {
         display: none;
+    }
+
+    body {
+        background: linear-gradient(200deg, rgba(255, 255, 255, 1) 0%, rgba(194, 194, 194, 1) 59%, rgba(228, 228, 228, 1) 100%);
     }
 
 

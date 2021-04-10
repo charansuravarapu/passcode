@@ -22,7 +22,7 @@ generateButton.addEventListener("click", function () {
         return;
     }
 
-    resultDisplay.innerHTML = "Generated Password : "+"<b>"+passd+"</b>";
+    resultDisplay.innerHTML = "Generated Password : " + "<b>" + passd + "</b>";
     inputholder.value = "";
     passlen.value = "";
 
