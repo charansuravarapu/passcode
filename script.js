@@ -16,13 +16,20 @@ recent_area = document.getElementById("rec-area");
 generateButton.addEventListener("click", function () {
     var str = inputholder.value;
     var len_requested = parseInt(passlen.value);
-    var passd = makeid(len_requested);
+    console.log(len_requested);
+    
+    if(!len_requested){
+        alert("Please enter valid length Ex: 12");
+        return;
+    }
     if (len_requested > 15) {
         alert("Make Sure your password is less than 15 characters ! It will be better ..");
         return;
     }
+    
+    var passd = makeid(len_requested);
 
-    resultDisplay.innerHTML = "Generated Password : " + "<b>" + passd + "</b>";
+    resultDisplay.innerHTML = "Generated Password : " + "<b style='color:yellowgreen'>" + passd + "</b>";
     inputholder.value = "";
     passlen.value = "";
 
