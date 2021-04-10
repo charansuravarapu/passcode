@@ -86,7 +86,7 @@ body {
 
 /*For mobile devices removing recent area*/
 
-@media only screen and (max-width:480px) {
+@media only screen and (max-width:500px) {
 
     .self-row {
         display: block;
