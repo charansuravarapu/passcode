@@ -1,0 +1,65 @@
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="icon" href="ic.png" type="image/icon type">
+    <link rel="stylesheet" href="styles.css">
+    <title>PassCode</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-light" style="background-color: rgba(255, 255, 255, 0.2);height:50px;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="ic.png" alt="" width="30" class="d-inline-block align-text-top">
+                <span style="font-weight: bold;">PassCode</span>
+            </a>
+        </div>
+    </nav>
+
+    <div class="self-row">
+
+        <div class="enter-area">
+
+            <h1>Enter <span style="font-weight: bold;color: yellowgreen;">Website</span> name</h1>
+            <input class="inp" id="input-getter" width="400" placeholder="Enter here">
+            <input class="inp" id="pas-len" placeholder="length">
+            <button id="mybutton" type="button" class="btn btn-warning">Generate</button>
+            <h2 id="result-disp"></h2>
+
+        </div>
+        <div id="rec-area" class="recent-area">
+            <h4 style="margin-left:8px;">Recent Passwords</h4>
+            <div id="pass-save-box" style="background-color: orange">
+                <h3 id="sb-t1">Your recent passwords</h3>
+                <h4 id="sb-t2">will be saved here</h4>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+    <footer class="text-muted py-5 fixed-bottom" style="background-color: rgba(255, 255, 255, 0.4);">
+        <div class="container">
+            <p class="mb-1">PassCode &copy; is a well responsive website to easily generate and keep track of your passwords</p>
+            <p class="mb-0">Wanna know how it build? <a href="/">Visit the homepage</a> or read our <a href="/docs/5.0/getting-started/introduction/">getting started guide</a>.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
